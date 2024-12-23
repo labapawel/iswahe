@@ -48,6 +48,19 @@ sudo apt-get update
 sudo apt-get install swi-prolog nodejs npm
 ```
 
+## Konfiguracja
+w pliku .env nalezy ustawić odpowiednie ścieżki
+
+```
+/usr/bin/swipl # dla linux
+c:\\Program Files\\swipl\\bin\\swipl.exe # dla windows
+```
+
+```
+PATH_SWIPL=/usr/bin/swipl
+PORT=3423
+```
+
 ## pierwsze uruchomienie
 w Katalogu projektu podajemy polecenie 
 ```
