@@ -1,4 +1,4 @@
-# Inteligentne systemy wnioskuj AHE
+# Inteligentne systemy wnioskujące AHE
 
 ## Wstęp
 System Kółko i Krzyżyk to aplikacja webowa oparta na logice wnioskowania, która umożliwia użytkownikowi rywalizację z komputerem w klasyczną grę Tic-Tac-Toe. Projekt został zaprojektowany z użyciem Node.js i Express jako backendu, Prolog jako silnika wnioskowania oraz HTML, CSS i JavaScript do stworzenia dynamicznego interfejsu użytkownika.
