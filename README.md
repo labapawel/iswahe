@@ -31,13 +31,19 @@ POST /ruch: Przesyła aktualny stan planszy i zwraca ruch komputera oraz informa
 POST /reset: Resetuje planszę do stanu początkowego.
 
 ## Autorzy
+```
 Bartosz Mroczkowski 167120
 Paweł Łaba 167122
+```
+
+Demo programu: https://isw.t24.ovh
 
 ## Instalacja oprogramowania Windows
 wymagana instalacja Nodejs
+```
 https://www.swi-prolog.org/download/stable
 https://nodejs.org/en
+```
 
 
 ## Instalacja oprogramowania LINUX
@@ -49,7 +55,7 @@ sudo apt-get install swi-prolog nodejs npm
 ```
 
 ## Konfiguracja
-w pliku .env nalezy ustawić odpowiednie ścieżki
+w pliku .env nalezy ustawić odpowiednie ścieżki oraz wolny port, na któym serwer będzie nasłuchiwał
 
 ```
 /usr/bin/swipl # dla linux
